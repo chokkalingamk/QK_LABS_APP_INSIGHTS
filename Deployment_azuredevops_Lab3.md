@@ -19,7 +19,7 @@ In this lab, you'll learn about how you can add Application Insights to an exist
 <a name="Prerequisites"></a>
 ### Prerequisites ###
 
-- This lab requires you to complete task 1 from the [prerequisite instructions](../prereq).
+- This lab requires you to complete task 1 from the [prerequisite instructions](./prereq).
 
 <a name="Exercise1"></a>
 ## Exercise 1: Monitoring Application Performance with Application Insights ##
