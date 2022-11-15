@@ -348,10 +348,10 @@ In this exercise, you created an API app by using ASP.NET and configured it to s
 
 1.  In the **Visual Studio Code** window, activate the shortcut menu, and then select **Open in Integrated Terminal**.
 
-1.  At the terminal prompt, run the following command to ensure that the current directory is set to the **Allfiles (\\Allfiles\\Labs\\11\\Starter\\Api\\bin\\Debug\\net6.0**, where the deployment files reside:
+1.  At the terminal prompt, run the following command to ensure that the current directory is set to the **Allfiles (\\Allfiles\\Labs\\1\\Starter\\Api\\bin\\Debug\\net6.0**, where the deployment files reside:
 
     ```
-    cd F:\Allfiles\Labs\11\Starter\Api\bin\Debug\net6.0
+    cd \Allfiles\Labs\1\Starter\Api\bin\Debug\net6.0
     ```
 
 1.  Run the following command to create a zip file containing the starter project that you'll deploy next to the Azure web API:
@@ -473,7 +473,7 @@ In this exercise, you created an API app by using ASP.NET and configured it to s
 
 1.  Switch to the **Visual Studio Code** window.
 
-1.  At the terminal prompt, run the following command to set the current directory to the **Allfiles (F):\\Allfiles\\Labs\\11\\Starter\\Api**, where the deployment files reside:
+1.  At the terminal prompt, run the following command to set the current directory to the **Allfiles (F):\\Allfiles\\Labs\\1\\Starter\\Api**, where the deployment files reside:
 
     ```
     cd \Allfiles\Labs\1\Starter\Api
