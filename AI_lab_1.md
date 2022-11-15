@@ -1,12 +1,11 @@
 ---
 lab:
-    az204Title: 'Lab 11: Monitor services that are deployed to Azure'
-    az020Title: 'Lab 11: Monitor services that are deployed to Azure'
-    az204Module: 'Module 11: Monitor and optimize Azure solutions'
-    az020Module: 'Module 11: Monitor and optimize Azure solutions'
+    Title: 'Lab 1: Monitor services that are deployed to Azure'
+    Module: 'Module 1: Monitor and optimize Azure solutions'
+
 ---
 
-# Lab 11: Monitor services that are deployed to Azure
+# Lab 1: Monitor services that are deployed to Azure
 
 ## Microsoft Azure user interface
 
@@ -20,13 +19,8 @@ Microsoft updates this training course when the community alerts us to needed ch
 
 #### Sign in to the lab environment
 
-Sign in to your Windows 10 virtual machine (VM) by using the following credentials:
+Create Windows 10 virtual machine (VM) and sign in to it:
     
--   Username: **Admin**
-
--   Password: **Pa55w.rd**
-
-> **Note**: Your instructor will provide instructions to connect to the virtual lab environment.
 
 #### Review the installed applications
 
@@ -176,11 +170,13 @@ In this exercise, you created the Azure resources that you'll use for the remain
 
 #### Task 1: Build a .NET Web API project
 
-1.  From the lab computer, start **Visual Studio Code**.
+1.  From the lab computer, Download /labs/1/* folders
+
+1.  Start **Visual Studio Code**.
 
 1.  In Visual Studio Code, on the **File** menu, select **Open Folder**.
 
-1.  In the **Open Folder** window, browse to **Allfiles (F):\\Allfiles\\Labs\\11\\Starter\\Api**, and then select **Select Folder**.
+1.  In the **Open Folder** window, browse to **Allfiles (Labs\\1\\Starter\\Api**, and then select **Select Folder**.
 
 1.  In the **Visual Studio Code** window, activate the shortcut menu, and then select **Open in Integrated Terminal**.
 
@@ -328,7 +324,7 @@ In this exercise, you created an API app by using ASP.NET and configured it to s
 
 1.  In the **Visual Studio Code** window, in the **Explorer** pane, navigate to the **bin\Debug\net6.0** directory.
 
-    > **Note**: To verify that you are in the **bin\Debug\net6.0** directory, in Visual Studio Code, on the File menu, select Open Folder and browse to **Allfiles (F):\\Allfiles\\Labs\\11\\Starter\\Api\\bin\\Debug\\net6.0**, and then select **Select Folder**.
+    > **Note**: To verify that you are in the **bin\Debug\net6.0** directory, in Visual Studio Code, on the File menu, select Open Folder and browse to **Allfiles :\\Allfiles\\Labs\\1\\Starter\\Api\\bin\\Debug\\net6.0**, and then select **Select Folder**.
 
 1.  Add a file named **web.config** to the directory.
 
@@ -352,7 +348,7 @@ In this exercise, you created an API app by using ASP.NET and configured it to s
 
 1.  In the **Visual Studio Code** window, activate the shortcut menu, and then select **Open in Integrated Terminal**.
 
-1.  At the terminal prompt, run the following command to ensure that the current directory is set to the **Allfiles (F):\\Allfiles\\Labs\\11\\Starter\\Api\\bin\\Debug\\net6.0**, where the deployment files reside:
+1.  At the terminal prompt, run the following command to ensure that the current directory is set to the **Allfiles (\\Allfiles\\Labs\\11\\Starter\\Api\\bin\\Debug\\net6.0**, where the deployment files reside:
 
     ```
     cd F:\Allfiles\Labs\11\Starter\Api\bin\Debug\net6.0
@@ -398,7 +394,7 @@ In this exercise, you created an API app by using ASP.NET and configured it to s
 1.  Run the following command to deploy the **api.zip** file you created previously in this task to the web API whose name you identified in the previous step, select **Y** when prompted by the command:
 
     ```powershell
-    Publish-AzWebApp -ResourceGroupName MonitoredAssets -Name $webAppName -ArchivePath "F:\Allfiles\Labs\11\Starter\Api\bin\Debug\net6.0\api.zip"
+    Publish-AzWebApp -ResourceGroupName MonitoredAssets -Name $webAppName -ArchivePath "\Allfiles\Labs\1\Starter\Api\bin\Debug\net6.0\api.zip"
     ```
 
     > **Note**: Wait for the deployment to complete before you continue with this lab.
@@ -480,7 +476,7 @@ In this exercise, you created an API app by using ASP.NET and configured it to s
 1.  At the terminal prompt, run the following command to set the current directory to the **Allfiles (F):\\Allfiles\\Labs\\11\\Starter\\Api**, where the deployment files reside:
 
     ```
-    cd F:\Allfiles\Labs\11\Starter\Api
+    cd \Allfiles\Labs\1\Starter\Api
     ```
 
 1.  Run the following command to import version 2.20.0 of **Microsoft.Extensions.Logging.ApplicationInsights** from NuGet to the current project:
