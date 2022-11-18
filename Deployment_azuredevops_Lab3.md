@@ -2,10 +2,6 @@
 title: Monitoring Application Performance with Application Insights
 layout: page
 sidebar: vsts
-permalink: /labs/azuredevops/appinsights/
-folder: /labs/azuredevops/appinsights/
-version: Lab version - 1.37.1
-updated: Last updated - 19/10/2020
 ---
 <div class="rw-ui-container"></div>
 <a name="Overview"></a>
